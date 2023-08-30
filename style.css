@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #ffffff;
   color: #2d2d2d;
 }
@@ -36,7 +36,7 @@ body {
 } /* Заголовки подразделов */
 
 .nav {
-  margin-bottom: 50px;
+  padding: 17px 0 23px;
 } /* Навигационное меню */
 
 .nav-list {
@@ -52,23 +52,28 @@ body {
   color: #525252;
 } /* Ссылки в навигации */
 
-.section:not(:last-child), .subsection:not(:last-child) {
-  margin-bottom: 50px;
+.section:not(:last-child) {
+  margin-bottom: 33px;
 } /* Все секции и подразделы, кроме последних */
 
-.article-text, .section-text, .subsection-text {
+.text, .subsection-text {
   font-size: 22px;
   line-height: 1.5;
 } /* Все параграфы */
 
-.article-text, .section-text {
-  margin: 0 0 50px;
-} /* Параграфы в статье и секциях */
+.text {
+  margin: 0 0 33px;
+} /* Параграфы в секциях */
 
-.article-text:last-child, .section-text:last-child, .subsection-text {
+.text:last-child, .subsection-text {
   margin: 0;
-} /* Последние параграфы в статье и секциях + Все параграфы в подразделах */
+} /* Последние параграфы в секциях + Параграфы в подразделах */
 
-.img:not(:last-child) {
-  margin-bottom: 50px;
-} /* Все изображения, кроме последних */
+.wrapper-img {
+  padding-top: 27px;
+  margin: 0 0 33px;
+} /* Обёртка изображений */
+
+.img {
+  display: block;
+} /* Изображения */
