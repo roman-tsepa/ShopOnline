@@ -1,0 +1,53 @@
+.shoe-care {
+  padding: 101px 0 73px;
+}
+
+.shoe-care__title {
+  margin-bottom: 50px;
+  font-size: 50px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.shoe-care__text {
+  margin-bottom: 33px;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.shoe-care__text_indent-external_none {
+  margin-bottom: 0;
+}
+
+.shoe-care__navigation {
+  padding: 17px 0 23px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #525252;
+}
+
+.shoe-care__inner {
+  max-width: 1095px;
+}
+
+.shoe-care__section:not(:last-child) {
+  margin-bottom: 33px;
+}
+
+.shoe-care__subtitle {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.shoe-care__subtitle_font-saturation_regular {
+  font-weight: 400;
+}
+
+.shoe-care__img {
+  box-sizing: content-box;
+  padding-top: 27px;
+  margin-bottom: 33px;
+}
